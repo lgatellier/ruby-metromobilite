@@ -4,6 +4,17 @@ Implémentation Ruby de l'API Métromobilite (Transports en commun de Grenoble e
 
 Pour plus d'informations, voir la [Documentation de l'API](http://www.metromobilite.fr/pages/opendata/OpenDataApi.html)
 
+# Installation
+En ligne de commande :
+```bash
+$ gem install metromobilite
+```
+
+Gemfile :
+```ruby
+gem 'metromobilite', '>= 0.2'
+```
+
 # Utilisation
 
 ```ruby
