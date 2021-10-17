@@ -3,7 +3,7 @@ require 'json'
 
 module Metromobilite
     module Request
-        API_URI = 'http://data.mobilites-m.fr/api'
+        API_URI = 'https://data.mobilites-m.fr/api'
         HEADERS = { 'Origin' => 'rubygems.org' }
 
         def self.get(reqUri)
