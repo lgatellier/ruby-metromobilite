@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'faraday', '~> 0.15'
   spec.add_dependency 'json', '~> 2.1'
-  spec.add_dependency 'httparty', '~> 0.17.3'
+  spec.add_dependency 'httparty', '>= 0.17.3', '< 0.22.0'
 
   spec.add_development_dependency 'bundler', '~> 2.2.10'
 
